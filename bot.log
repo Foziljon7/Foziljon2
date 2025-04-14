@@ -1,0 +1,206 @@
+2025-04-14 16:11:16,665 - aiogram.dispatcher - INFO - Start polling
+2025-04-14 16:11:16,785 - aiogram.dispatcher - INFO - Run polling for bot @Karimboyev_mangit_bot id=7572450905 - 'Karimboyev'
+2025-04-14 16:11:17,314 - aiogram.event - INFO - Update id=424744585 is not handled. Duration 389 ms by bot id=7572450905
+2025-04-14 16:11:17,314 - aiogram.event - ERROR - Cause exception while process update id=424744585 by bot id=7572450905
+AttributeError: module 'app' has no attribute 'get_inline'
+Traceback (most recent call last):
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\Desktop\tg_dars1\main.py", line 31, in start_bosilganda
+    await m.answer("Biror bir davlatni tanlang?:",reply_markup=app.get_inline())
+AttributeError: module 'app' has no attribute 'get_inline'
+2025-04-14 16:11:19,363 - aiogram.event - INFO - Update id=424744586 is not handled. Duration 186 ms by bot id=7572450905
+2025-04-14 16:11:19,364 - aiogram.event - ERROR - Cause exception while process update id=424744586 by bot id=7572450905
+AttributeError: module 'app' has no attribute 'get_inline'
+Traceback (most recent call last):
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\Desktop\tg_dars1\main.py", line 31, in start_bosilganda
+    await m.answer("Biror bir davlatni tanlang?:",reply_markup=app.get_inline())
+AttributeError: module 'app' has no attribute 'get_inline'
+2025-04-14 16:11:22,526 - aiogram.event - INFO - Update id=424744587 is not handled. Duration 155 ms by bot id=7572450905
+2025-04-14 16:11:22,526 - aiogram.event - ERROR - Cause exception while process update id=424744587 by bot id=7572450905
+AttributeError: module 'app' has no attribute 'get_inline'
+Traceback (most recent call last):
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\Desktop\tg_dars1\main.py", line 31, in start_bosilganda
+    await m.answer("Biror bir davlatni tanlang?:",reply_markup=app.get_inline())
+AttributeError: module 'app' has no attribute 'get_inline'
+2025-04-14 16:11:28,606 - aiogram.event - INFO - Update id=424744588 is not handled. Duration 140 ms by bot id=7572450905
+2025-04-14 16:11:28,606 - aiogram.event - ERROR - Cause exception while process update id=424744588 by bot id=7572450905
+AttributeError: module 'app' has no attribute 'get_inline'
+Traceback (most recent call last):
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\Desktop\tg_dars1\main.py", line 31, in start_bosilganda
+    await m.answer("Biror bir davlatni tanlang?:",reply_markup=app.get_inline())
+AttributeError: module 'app' has no attribute 'get_inline'
+2025-04-14 16:16:16,649 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-14 16:16:16,651 - aiogram.dispatcher - INFO - Polling stopped for bot @Karimboyev_mangit_bot id=7572450905 - 'Karimboyev'
+2025-04-14 16:16:23,161 - aiogram.dispatcher - INFO - Start polling
+2025-04-14 16:16:23,325 - aiogram.dispatcher - INFO - Run polling for bot @Karimboyev_mangit_bot id=7572450905 - 'Karimboyev'
+2025-04-14 16:16:25,898 - aiogram.event - INFO - Update id=424744589 is not handled. Duration 375 ms by bot id=7572450905
+2025-04-14 16:16:25,899 - aiogram.event - ERROR - Cause exception while process update id=424744589 by bot id=7572450905
+AttributeError: module 'app' has no attribute 'get_inline'
+Traceback (most recent call last):
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\error.py", line 25, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\middlewares\user_context.py", line 56, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\fsm\middleware.py", line 42, in __call__
+    return await handler(event, data)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 170, in _propagate_event
+    response = await router.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 142, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 137, in _wrapped
+    return await self._propagate_event(
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\router.py", line 162, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "C:\Users\IT PARK\AppData\Local\Programs\Python\Python39\lib\site-packages\aiogram\dispatcher\event\handler.py", line 43, in call
+    return await wrapped()
+  File "C:\Users\IT PARK\Desktop\tg_dars1\main.py", line 31, in start_bosilganda
+    await m.answer("Biror bir davlatni tanlang?:",reply_markup=app.get_inline())
+AttributeError: module 'app' has no attribute 'get_inline'
+2025-04-14 16:17:22,078 - aiogram.dispatcher - INFO - Polling stopped
+2025-04-14 16:17:22,079 - aiogram.dispatcher - INFO - Polling stopped for bot @Karimboyev_mangit_bot id=7572450905 - 'Karimboyev'
+2025-04-14 16:17:32,168 - aiogram.dispatcher - INFO - Start polling
+2025-04-14 16:17:32,289 - aiogram.dispatcher - INFO - Run polling for bot @Karimboyev_mangit_bot id=7572450905 - 'Karimboyev'
+2025-04-14 16:17:39,243 - aiogram.event - INFO - Update id=424744590 is handled. Duration 546 ms by bot id=7572450905
